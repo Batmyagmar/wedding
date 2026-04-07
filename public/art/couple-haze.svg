@@ -1,0 +1,43 @@
+<svg width="1600" height="1600" viewBox="0 0 1600 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 510) rotate(90) scale(560 620)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.38" stop-color="#FFF7EC"/>
+      <stop offset="1" stop-color="#FFF7EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 700) rotate(130) scale(380 360)">
+      <stop stop-color="#EED7B9" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#EED7B9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figure" x1="554" y1="372" x2="1040" y2="1268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7D2B1"/>
+      <stop offset="1" stop-color="#B8905F"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="507" y1="676" x2="1092" y2="1178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softBlur" x="245" y="150" width="1110" height="1276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="mistBlur" x="358" y="488" width="862" height="754" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1600" fill="url(#bgGlow)"/>
+  <rect width="1600" height="1600" fill="url(#warmGlow)"/>
+
+  <g opacity="0.68" filter="url(#softBlur)">
+    <ellipse cx="632" cy="482" rx="88" ry="108" fill="url(#figure)"/>
+    <path d="M514 648C520 565 566 514 640 516C728 519 776 596 788 690C803 801 746 920 738 1008C730 1088 760 1175 694 1220C627 1266 492 1240 426 1181C356 1118 357 1024 398 940C438 855 507 769 514 648Z" fill="url(#figure)"/>
+    <ellipse cx="885" cy="452" rx="104" ry="122" fill="url(#figure)"/>
+    <path d="M774 640C797 554 853 513 934 524C1036 538 1095 633 1100 741C1107 861 1029 968 1022 1062C1015 1157 1066 1251 1005 1295C945 1338 818 1313 740 1253C662 1192 640 1095 671 995C700 898 751 729 774 640Z" fill="url(#figure)"/>
+    <path d="M638 724C695 690 762 690 814 720C861 748 900 798 953 831C994 857 1057 883 1088 929C1118 973 1114 1039 1085 1090C1044 1163 969 1210 886 1231C802 1252 705 1248 627 1209C544 1168 486 1088 476 999C469 927 495 860 540 809C569 777 605 743 638 724Z" fill="url(#mist)"/>
+  </g>
+
+  <g opacity="0.54" filter="url(#mistBlur)">
+    <ellipse cx="764" cy="944" rx="286" ry="162" fill="#FFF6E8"/>
+    <ellipse cx="936" cy="884" rx="188" ry="138" fill="#FFF9F2"/>
+  </g>
+</svg>
