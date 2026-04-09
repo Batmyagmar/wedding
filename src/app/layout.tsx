@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Хуримын Урилга | И.Батмягмар & З.Уранбилэг",
+  title: "Хуримын урилга | И.Батмягмар & З.Уранбилэг",
   description:
-    "Номын хуудас нээгдэн гарч ирэх анимацтай, романтик загвартай хуримын урилгын Next.js веб.",
+    "И.Батмягмар, З.Уранбилэг нарын хуримын урилгын веб хуудас.",
 };
 
 export default function RootLayout({
